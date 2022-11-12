@@ -1,0 +1,54 @@
+10-11-2022	13:23:49	7759f2b1-11a7-40cf-8cb0-117be77cc4b0	Error: not allowed by CORS
+10-11-2022	13:23:49	81506d3d-e166-4952-a304-92cd22525c76	Error: not allowed by CORS
+10-11-2022	13:24:51	617b79f7-9330-4546-a981-2be2da450699	Error: not allowed by CORS
+10-11-2022	13:24:51	8505ae58-3d70-4553-8571-4da06ae0aed6	Error: not allowed by CORS
+10-11-2022	16:52:22	9cdc05da-b496-465c-987e-97d43af1b26d	SyntaxError: Unexpected token } in JSON at position 74
+11-11-2022	10:48:03	96450d9a-2780-484f-a672-648b49febe4d	ReferenceError: RoleModel is not defined
+11-11-2022	12:28:50	aa1a975b-a36e-44fe-a103-ad4ecc18efe2	Error: "email" is required
+11-11-2022	12:35:26	0517de7f-6621-4352-8fc8-c509863b8b44	Error: "role_code" is required
+11-11-2022	12:36:51	b4819013-9e12-4fbc-a74b-51f2c881aa03	SyntaxError: Unexpected token } in JSON at position 71
+11-11-2022	12:37:00	94935f37-de3c-4c2a-a6f2-d5662eb7fc77	Error: "roleName" is required
+11-11-2022	14:44:31	1759645b-ac32-4409-9067-4d783c3cf053	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:45:31	2aece66b-803f-40ec-aa8d-c9c0cc68bd39	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:46:20	48388e6f-d253-4c5c-9d10-a47441db0f19	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:47:13	b18a144f-e7be-4b1c-842d-f3b7513fa846	Error: "email" is required
+11-11-2022	14:47:55	92e99a13-8766-4534-b271-ff00fcfa5874	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:51:17	856bc4eb-1ffc-4dc2-b856-b4b6cb8854a6	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:52:37	8bcdf63c-3ddd-4792-ace6-4c19bb47aa8d	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:52:38	f293b166-0fa1-46ce-9419-a37f2be1ce40	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:52:39	dd0a98a9-4843-430a-beca-510f2b3fcded	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:52:40	66635c30-f383-4312-9882-18eea50ab1d3	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:52:40	d7aec717-9e26-4cdb-a7a4-b22195098934	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:52:41	707c6dcb-2abd-4a6a-ad3c-d954909a538c	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:52:42	de9f24f8-8402-4cdd-9c28-df7350ad723b	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	14:53:06	332fb9e1-0cc0-463d-9a8f-c3039ef98b7e	TypeError: Cannot read properties of undefined (reading 'toString')
+11-11-2022	16:08:02	2898e191-4566-4100-9389-82213ed04112	ReferenceError: Cannot access 'roles' before initialization
+11-11-2022	16:10:20	3b6d7339-40e3-4160-83ac-3618dd6ba7b0	Error: Cannot set headers after they are sent to the client
+11-11-2022	16:10:49	a019c399-131e-40a5-85fb-d479e26818eb	Error: Cannot set headers after they are sent to the client
+11-11-2022	17:34:59	dd79d15b-346e-49ca-92c4-9b8784f89f38	Error: not allowed by CORS
+11-11-2022	17:34:59	f2d0ff71-ba5c-49ad-a17b-86593fe37c3f	Error: not allowed by CORS
+12-11-2022	10:29:12	02257a42-f1cc-40fc-b412-0ea22cf2c311	ReferenceError: ServerError is not defined
+12-11-2022	10:30:14	acf6c6a2-a678-411c-8dd8-9fa88fe2ce1e	ReferenceError: ServerError is not defined
+12-11-2022	10:31:59	1fae3860-de12-4c1b-8304-b9c6e6a5f78c	ReferenceError: ServerError is not defined
+12-11-2022	10:32:41	3a4d7c5f-8160-425c-9f5a-d813d99301ff	ReferenceError: ServerError is not defined
+12-11-2022	10:33:13	226722bc-2994-4c3c-a591-f711e3dccb09	ReferenceError: ServerError is not defined
+12-11-2022	10:33:32	7f604bf7-4584-4691-9ea4-499d493859ee	ReferenceError: ServerError is not defined
+12-11-2022	10:33:44	325bbc43-d1f6-4712-a1a1-3dcc30f8517d	Error: "email" is required
+12-11-2022	10:34:32	d6066023-f61d-4493-843c-fa0ffe6255ad	Error: "code" length must be at least 4 characters long
+12-11-2022	10:35:38	61436e2b-909e-491c-ba86-77d0a40251a1	Error: "code" length must be less than or equal to 4 characters long
+12-11-2022	10:35:50	decf9634-e2b2-4081-acd5-f620dd53f5bf	Error: "code" length must be at least 4 characters long
+12-11-2022	10:38:27	e636ca6c-7c6c-4a4e-9f5f-dd639ec136a5	Error: "code" is not allowed to be empty
+12-11-2022	10:47:45	cdeeb2dc-83b1-4363-9353-69bb079c88fa	Error: "userId" must be a string
+12-11-2022	11:37:58	aba54fb8-e72e-4302-abcb-9a442a8dde54	Error: 404
+12-11-2022	11:39:02	d6c39773-bdfa-4d7f-844b-7d1acd80cb83	Error: 777
+12-11-2022	11:41:52	4361b6b9-d3f5-412f-a434-1f71b0d62101	Error: 777
+12-11-2022	11:42:19	fc0c9391-9156-4598-ac44-c5fc1919ccd2	Error: 777
+12-11-2022	11:42:35	591dff83-6cb1-413f-a285-d48f7dc5a0c6	Error: 404
+12-11-2022	11:43:39	5169330d-8071-418f-9d8a-77589237aa51	Error: 404
+12-11-2022	11:44:18	bdf0063e-5993-4000-961f-291b1f00efdf	Error: 404
+12-11-2022	11:45:47	aac52bf4-1765-45a2-82f1-1dc80eb4d571	Error: code not found
+12-11-2022	11:45:54	66299e4a-02b1-4cc4-b471-2ba923e0ad20	Error: code not found
+12-11-2022	11:48:33	1980ade3-adf7-4401-9e9e-f6de4d582a82	Error: code not found
+12-11-2022	11:54:37	548d7f8b-67e3-499f-8295-4e3570b4c156	Error: code not found
+12-11-2022	11:54:58	899c0285-46d1-4123-a220-b47ba2a6d05a	Error: code not found
+12-11-2022	12:10:45	2f19d74f-3b0b-4a48-bc16-7b1a34db4d19	ReferenceError: code is not defined

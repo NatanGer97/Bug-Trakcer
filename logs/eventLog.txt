@@ -1,0 +1,17 @@
+10-11-2022	11:03:25	85c71b77-1f77-470e-9474-e4d3c7ffc2e2	Log Event emitted!
+10-11-2022	11:03:38	dbdba85c-579a-4656-b0c0-7706de08c4a5	Log Event emitted!
+10-11-2022	11:03:49	c153421a-fbd9-475e-9b0c-ce1d6021cf0f	Log Event emitted!
+10-11-2022	11:07:05	7c7c0c07-7a02-4eba-baaf-5286daf59d15	Log Event emitted!
+10-11-2022	11:07:08	5ee8e3f5-757b-409a-a912-12cb947fc06d	Log Event emitted!
+10-11-2022	11:07:13	807826cf-1f16-4a8f-8eaa-db0d037434cd	Log Event emitted!
+10-11-2022	11:07:19	657a59f0-b20e-423c-80df-ecf5d5230105	Log Event emitted!
+10-11-2022	11:07:29	aee71edd-f0b5-4ce4-b712-7e55012881fa	Log Event emitted!
+10-11-2022	11:07:34	d587e45a-2ac2-462a-bf2e-560053536619	Log Event emitted!
+10-11-2022	11:07:56	e5767f83-47f7-40f9-950e-415beef6738c	Log Event emitted!
+10-11-2022	11:08:01	b59b63aa-25aa-4841-b474-5312906aef4b	Log Event emitted!
+10-11-2022	11:08:03	abf5420d-91c8-499d-bf83-a075e9dd8574	Log Event emitted!
+10-11-2022	11:08:11	c811db8d-5a56-4ac3-93fc-2f0fae197e81	Log Event emitted!
+10-11-2022	11:08:15	5243313a-f524-48d9-9980-ff1e0bb570e7	Log Event emitted!
+10-11-2022	11:08:24	43302f3f-8cc9-4074-a10a-74e7747126c1	Log Event emitted!
+10-11-2022	11:08:35	faca15e5-e30a-4307-908c-df088a578bc0	Log Event emitted!
+10-11-2022	11:08:49	a08be3aa-f126-4021-8299-22f9305a3c14	Log Event emitted!
