@@ -91,3 +91,5 @@
 21-11-2022	15:43:22	bc1c53c3-0f08-41f8-abc8-0e4fd1ec870d	Error: team leader not found
 21-11-2022	16:00:23	f5793037-c18b-455b-b6d5-85598f9fd2fe	TypeError: members.map is not a function
 21-11-2022	16:01:05	6d7a3049-d2db-4fd9-bc68-48a7df77d3da	TypeError: members.map is not a function
+21-11-2022	17:11:47	686f518c-889b-4f65-8f02-7f4b8eccf8a4	: undefined
+21-11-2022	17:36:39	cd223aab-1238-4ef6-98d7-e7251be0980b	TypeError: members.map is not a function
