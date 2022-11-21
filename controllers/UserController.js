@@ -3,7 +3,8 @@ const UserModel = require("../models/User");
 
 exports.getUsers = async(req, res) =>
 {
-    const users = await UserModel.find({}).populate('roles', 'role_name')
+    const users = await UserModel.find({});
+    // const users = await UserModel.find({}).populate('roles', 'role_name')
     if (users.length > 0)
     {
         const usersDto = users.map((user) => new UserDTO(user))

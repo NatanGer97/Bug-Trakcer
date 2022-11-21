@@ -41,9 +41,10 @@ exports.handleNewUser = async (req, res) => {
     const savedUser = await user.save();
 
     //TODO:: send verification code via email
-    sendEmail(savedUser.email, savedUser.name, savedUser.id);
-
-    res.status(201).json({ success: `New user ${savedUser} created` });
+    await sendEmail(savedUser.email, savedUser.name, savedUser);
+    const userId = await UserModel.findById(savedUser._id).exec();
+    
+    res.status(201).json({ success: `New created`, userId: userId.id});
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

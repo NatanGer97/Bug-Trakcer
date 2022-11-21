@@ -6,7 +6,11 @@ const { MapIdsToRoleName } = require("../services/RoleService");
 require("dotenv").config();
 
 const handleLogin = async (req, res) => {
+  const cookies = req.cookies;
+
   const { email, password } = req.body;
+  console.log(req.body);
+  // credentials test
   if (!email || !password) {
     return res
       .status(400)
@@ -20,9 +24,10 @@ const handleLogin = async (req, res) => {
       .json({ message: " user not found, please register" }); // unauthorized
   }
 
+  // user activation test
   if (!foundUser.is_active)
     return res
-      .status(402)
+      .status(401)
       .json({ message: "user is not active, please activate" });
 
   // compare passwords
@@ -37,32 +42,56 @@ const handleLogin = async (req, res) => {
     const jwtPayload = {
       UserInfo: {
         username: foundUser.email,
+        userId: foundUser._id,
+        userName: foundUser.name,
         roles: foundUserRoles,
       },
     };
 
     const accessToken = jwt.sign(jwtPayload, process.env.ACCESS_TOKEN_SECRET, {
-      expiresIn: "15m",
-    });
+      // expiresIn: "15m",
+      // for testing only
 
-    const refreshToken = jwt.sign(
-      { username: foundUser.email },
-      process.env.REFRESH_TOKEN_SECRET,
-      { expiresIn: "1d" }
-    );
+      expiresIn: "1d", 
+    });
 
     // refresh token
-    await foundUser.updateOne({ refreshToken: refreshToken });
+    /*  const newRefreshToken = jwt.sign(
+      { username: foundUser.email },
+      process.env.REFRESH_TOKEN_SECRET,
+      // { expiresIn: "1m" }
+      { expiresIn: "1d" }
+    ); */
+
+    /*    const newRefreshTokenArray = !cookies?.jwt
+      ? foundUser.refreshToken
+      : foundUser.refreshToken.filter(rt => rt !== cookies.jwt);
+
+      if (cookies?.jwt) {
+        res.clearCookie("jwt", refreshToken, {
+          httpOnly: true,
+          sameSite: "None",
+          secure: true,
+          maxAge: 24 * 60 * 60 * 1000,
+        });
+        
+      } */
+
+    // refresh token - saving
+    /*     foundUser.refreshToken = [...newRefreshTokenArray, newRefreshToken]
+    await foundUser.save();
+    // await foundUser.updateOne({ re: refreshToken });
     //maxAge:  hourPerDay * minutesPerHour, secondsPerMinutes
-    res.cookie("jwt", refreshToken, {
+    res.cookie("jwt", newRefreshToken, {
       httpOnly: true,
-      // sameSite: "None",
+      SameSite: 'none',
       secure: true,
       maxAge: 24 * 60 * 60 * 1000,
-    });
-    res.json({ accessToken });
+    }); */
+
+    res.json({ roles: foundUserRoles, accessToken, username: foundUser.name });
   } else {
-    res.sendStatus(401);
+    return res.status(401).json({ message: "invalid password" });
   }
 };
 

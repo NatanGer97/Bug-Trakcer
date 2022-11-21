@@ -5,7 +5,6 @@ var logger = require("morgan");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
-
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 const errorHandler = require("./middlewares/errorHandler");
@@ -26,7 +25,13 @@ db.once("open", () => {
 });
 
 // cross origin resource sharing
-const whiteList = ["http://127.0.0.1:3000" /* "https://www.google.com" */];
+const whiteList = [
+  "http://127.0.0.1:3000",
+  "http://127.0.0.1:3000",
+  "http://127.0.0.1:3001",
+  "http://localhost:3001",
+  "https://www.google.com/",
+];
 const corsOptions = {
   origin: (origin, callback) => {
     if (whiteList.indexOf(origin) !== -1 || !origin) {
@@ -35,8 +40,10 @@ const corsOptions = {
       callback(new Error("not allowed by CORS"));
     }
   },
+  credentials:true,
   optionSuccessStatus: 200,
 };
+// app.use(cors());
 app.use(cors(corsOptions));
 
 // custom middleware logger
@@ -54,6 +61,7 @@ app.use("/auth", require("./routes/authRouter"));
 app.use("/refresh", require("./routes/refresh"));
 app.use("/logout", require("./routes/logoutRout"));
 app.use("/roles", require("./routes/RoleRouter"));
+app.use("/teams", require("./routes/TeamRouter"));
 app.use(verifyJWT);
 app.use("/users", usersRouter);
 
@@ -62,7 +70,5 @@ app.all("*", (req, res, next) => {
 });
 
 app.use(errorHandler);
-
-
 
 module.exports = app;

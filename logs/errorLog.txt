@@ -52,3 +52,42 @@
 12-11-2022	11:54:37	548d7f8b-67e3-499f-8295-4e3570b4c156	Error: code not found
 12-11-2022	11:54:58	899c0285-46d1-4123-a220-b47ba2a6d05a	Error: code not found
 12-11-2022	12:10:45	2f19d74f-3b0b-4a48-bc16-7b1a34db4d19	ReferenceError: code is not defined
+12-11-2022	15:20:54	0c162143-10f9-4dc0-85f1-48b92fcc2959	Error: not allowed by CORS
+12-11-2022	15:20:58	064ef80d-70f3-49dd-97a3-f74e249f9a38	Error: not allowed by CORS
+12-11-2022	15:21:06	4d1666a9-492a-4670-8f59-a42982f2c3b7	Error: not allowed by CORS
+12-11-2022	15:21:22	c88d24e1-6850-457d-918c-6ff46a47becf	Error: not allowed by CORS
+12-11-2022	15:31:11	fde843f4-db22-45ca-92b5-73afb72a563f	Error: not allowed by CORS
+12-11-2022	15:31:57	ed47e091-f78d-4c14-8ac1-30db7046630a	Error: not allowed by CORS
+12-11-2022	15:32:00	a53cda6a-faee-4ee8-bc52-e244bcf35858	Error: not allowed by CORS
+12-11-2022	15:32:18	318e7438-4a6c-4b76-9ad7-b901e93acd54	Error: not allowed by CORS
+12-11-2022	15:36:57	3e8f1998-a7f8-452a-8b84-294508ab21af	Error: not allowed by CORS
+12-11-2022	15:37:12	ef2ee6d0-2aee-43f9-a6fb-0567686372a2	Error: not allowed by CORS
+12-11-2022	15:37:12	c9035900-3629-4269-9381-21e51243e468	Error: not allowed by CORS
+12-11-2022	15:38:13	7a8b591e-5bb6-4ecc-8201-98b2bf0f0373	Error: not allowed by CORS
+12-11-2022	15:38:13	bdd0fd78-9e2b-471a-a9d0-94bc042db868	Error: not allowed by CORS
+12-11-2022	15:38:22	ace7af01-e9f7-472f-aa73-fa1ede3718a7	Error: not allowed by CORS
+12-11-2022	15:38:22	1baada22-3e52-41c1-a54c-6a5c19c47fa1	Error: not allowed by CORS
+19-11-2022	16:53:13	a3003944-6f51-4086-9fb1-df3f2f692c47	Error: code not found
+19-11-2022	16:53:22	d36d229d-0b79-4bd5-8f5a-4fd53bb3d3c4	Error: code not found
+19-11-2022	16:58:16	31284acc-eb5c-4e20-b473-5fff8e90e5be	Error: code not found
+19-11-2022	16:58:39	3584d662-d4c2-479a-b566-9ef6251362c0	Error: code not found
+19-11-2022	16:59:47	b77df0c5-54d7-4b3b-b87c-585a391b27d9	Error: code not found
+19-11-2022	17:01:31	3fff9942-d9bc-47c7-9650-21f600572b88	Error: code not found
+19-11-2022	17:03:23	54053551-9839-4dfa-8be4-c8a6c3d759ff	Error: code not found
+19-11-2022	17:03:54	c38698e8-feb6-47c1-b6bc-098226a0d6f2	Error: code not found
+19-11-2022	17:05:15	17820d22-19b2-4fb2-9c62-6468ea72a66c	Error: code not found
+21-11-2022	15:01:36	0f8156f4-faa8-4250-bc43-bcc6f900cc6c	Error: team leader not found
+21-11-2022	15:02:44	33ab7eee-484d-45ad-b198-1159a4572ee0	Error: user not found
+21-11-2022	15:29:49	93df7b26-b193-4a3a-bc1a-8ad0a1fa8406	TypeError: TeamDTO is not a constructor
+21-11-2022	15:30:51	f24700cf-a337-4a85-87dd-19d7654ab6f7	TypeError: TeamDTO is not a constructor
+21-11-2022	15:34:04	2f455533-94b2-4c30-8a97-6ccec14471fc	TypeError: Cannot read properties of undefined (reading 'length')
+21-11-2022	15:38:22	295de554-ae32-4a2c-8e22-2c1fd8b0cd7e	ReferenceError: members is not defined
+21-11-2022	15:38:38	71ab4fd8-2244-44b2-9dcb-274688a1d9b2	Error: user not found
+21-11-2022	15:38:43	8893c52c-5c73-464a-966a-e1e736d21faf	CastError: Cast to ObjectId failed for value "6378f5f17d84dfd05d8b01b" (type string) at path "_id" for model "user"
+21-11-2022	15:38:49	f593f075-3060-4fbd-b3eb-4b8819f0c349	Error: team leader not found
+21-11-2022	15:38:52	db71428a-7463-4a4b-ac41-b2fb838e40fd	CastError: Cast to ObjectId failed for value "637a2daf5187a50f8bbceb5" (type string) at path "_id" for model "user"
+21-11-2022	15:42:02	1f3de4ed-b62a-4b6c-a6c4-54bd4f1fd0fe	ValidationError: team validation failed: team_leader: Path `team_leader` is required.
+21-11-2022	15:42:16	77185388-2afb-4a34-9ead-9af169474409	Error: team leader not found
+21-11-2022	15:43:22	bc1c53c3-0f08-41f8-abc8-0e4fd1ec870d	Error: team leader not found
+21-11-2022	16:00:23	f5793037-c18b-455b-b6d5-85598f9fd2fe	TypeError: members.map is not a function
+21-11-2022	16:01:05	6d7a3049-d2db-4fd9-bc68-48a7df77d3da	TypeError: members.map is not a function

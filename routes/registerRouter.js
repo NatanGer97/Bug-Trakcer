@@ -8,7 +8,7 @@ const registerController = require('../controllers/RegisterController');
 
 
 router.post('/',validateUserInput, registerController.handleNewUser);
-router.post('/activate', ActivationCodeValidation, registerController.activateUser);
+router.post('/activate',  registerController.activateUser);
 router.post('/resendCode/:userId', registerController.resendActivationCode);
 
 

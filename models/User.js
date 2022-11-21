@@ -20,8 +20,10 @@ const userSchema = new mongoose.Schema(
     },
     roles: [{ type: mongoose.SchemaTypes.ObjectId, ref: "role" }],
     refreshToken: {
-      type: String,
+      type: [String],
     },
+
+    team: {type: mongoose.SchemaTypes.ObjectId, ref: 'team'},
     is_active: {type:Boolean}
   },
   { timestamps: true }

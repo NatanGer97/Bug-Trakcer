@@ -9,7 +9,7 @@ const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: "projects.natan@gmail.com",
-    pass: "sgblnkvoxyonaqdk",
+    pass: "mkojrlfpooyrhnct",
   },
 });
 
@@ -22,8 +22,8 @@ async function sendEmail(emailAddress, name, userId) {
 
   const mailOptions = {
     from: "projects.natan@gmail.com",
-    to: emailAddress,
-    // to: "Natanger97@gmail.com",
+    // to: emailAddress,
+    to: "Natanger97@gmail.com",
     subject: "User Activation",
     html: `<h3>Welcome ${name}, </h3><h3>Activation code:</h3><h4>Code:${generatedCode.code}</h4>`,
   };
