@@ -8,7 +8,7 @@ exports.FindTeamByIdOrThrow = async (teamId) =>
     if (team !== null) {
         return team;
     }
-    throw new ServerError(`team with given id: ${teamId} not found`);
+    throw new ServerError(`team with given id: ${teamId} not found`, 404);
    } catch (err)
    {
     throw err;

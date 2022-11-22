@@ -15,6 +15,7 @@ const verifyJWT = async (req, res, next) =>
                 return res.status(403).json(err.message); // invalid token
             }
             req.user = decoded.UserInfo.username;
+            req.userId = decoded.UserInfo.userId;
             req.roles =  decoded.UserInfo.roles;
             // console.log(`Decoded: ${Object.values(decoded.UserInfo)}`);
             next();

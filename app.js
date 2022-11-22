@@ -61,8 +61,8 @@ app.use("/auth", require("./routes/authRouter"));
 app.use("/refresh", require("./routes/refresh"));
 app.use("/logout", require("./routes/logoutRout"));
 app.use("/roles", require("./routes/RoleRouter"));
-app.use("/teams", require("./routes/TeamRouter"));
 app.use(verifyJWT);
+app.use("/teams", require("./routes/TeamRouter"));
 app.use("/users", usersRouter);
 
 app.all("*", (req, res, next) => {

@@ -87,4 +87,17 @@ const deleteTeam = async (req, res, next) => {
   }
 };
 
-module.exports = { createTeam, deleteTeam };
+const getTeam = async (req, res, next) => {
+  const teamId = req.params.teamId;
+
+  try {
+    const foundTeam = await FindTeamByIdOrThrow(teamId);
+    res.json(new TeamDTO(foundTeam.team_leader, foundTeam.team_members, foundTeam.name, foundTeam._id));
+  
+  } catch(err) {
+    next(err);
+  } 
+
+};
+
+module.exports = { createTeam, deleteTeam, getTeam};

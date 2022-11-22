@@ -93,3 +93,16 @@
 21-11-2022	16:01:05	6d7a3049-d2db-4fd9-bc68-48a7df77d3da	TypeError: members.map is not a function
 21-11-2022	17:11:47	686f518c-889b-4f65-8f02-7f4b8eccf8a4	: undefined
 21-11-2022	17:36:39	cd223aab-1238-4ef6-98d7-e7251be0980b	TypeError: members.map is not a function
+21-11-2022	17:51:15	4fb8e2b9-c029-4c8c-8cdc-cbb811378efa	SyntaxError: Unexpected token / in JSON at position 7
+21-11-2022	17:51:43	3df6d768-a8f9-4f79-beb8-eac8b231e065	SyntaxError: Unexpected token / in JSON at position 7
+21-11-2022	17:52:00	50e584ce-420d-4907-b9aa-6d9531f7f9d7	Error: "name" length must be 2 characters long
+21-11-2022	17:52:17	641826f0-1f8b-496b-aef0-7439265570cf	Error: "name" length must be 2 characters long
+21-11-2022	17:52:22	61676303-2785-433f-a045-d0cea6aeab72	Error: "name" length must be 2 characters long
+21-11-2022	17:52:44	d7295430-f390-441e-b8bd-4d46a791158f	Error: "team_leader" must be of type object
+21-11-2022	17:53:06	7743f98e-529c-41d7-8a78-4bdbc23439f8	Error: "team_members" is required
+21-11-2022	18:03:04	1611f2c6-919e-4e05-94cd-c833f1357a63	TypeError: req.send is not a function
+21-11-2022	18:39:46	b1b86cf7-63a8-41dc-934e-52125f7f4db3	ReferenceError: RolesEnum is not defined
+22-11-2022	16:46:25	1707dd0a-afc9-479f-a152-f361123117e2	CastError: Cast to ObjectId failed for value "22" (type string) at path "_id" for model "team"
+22-11-2022	16:47:21	53ceb1da-94f4-453a-a9aa-34798ace8464	Error: team with given id: 637ce0ef416ec70a55000000 not found
+22-11-2022	16:47:50	bba80beb-5d5d-4d8a-a4e4-fb0562fbbe60	Error: team with given id: 637ce0ef416ec70a55000000 not found
+22-11-2022	16:48:35	e8f5e69e-3d73-4e84-aade-85ca85f41e0a	Error: team with given id: 637ce0ef416ec70a55000000 not found
